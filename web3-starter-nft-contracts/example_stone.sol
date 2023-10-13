@@ -44,8 +44,9 @@ contract SimpleNFT {
 
     function transferFrom(address from, address to, uint256 tokenId) external onlyOwnerOf(tokenId) {
         tokenOwner[tokenId] = to;
-        balanceOf[from] = balanceOf[from].sub(1);
-        balanceOf[to] = balanceOf[to].add(1);
+
+        balanceOf[from] = balanceOf[from].sub(2);
+        balanceOf[to] = balanceOf[to].add(2);
         emit Transfer(from, to, tokenId);
     }
 
