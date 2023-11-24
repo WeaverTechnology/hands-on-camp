@@ -1,4 +1,4 @@
-# hands-on-camp
+# Hands-on Camp
 
 ## 未来科技开发者论坛沙龙分享会实操代码仓库
 
